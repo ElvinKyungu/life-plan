@@ -4,60 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./css/output.css" rel="stylesheet">
+  <title>Challenge #1 SaaS</title>
 </head>
 <body>
-  <main class="px-28 relative font-roboto">
-    <header class="flex justify-between items-center py-4">
-      <h1 class="font-semibold text-2xl">Lyf_) <span class="text-lg font-medium ">/ isurance@tiropay.au</span></h1>
-      <nav>
-        <ul class="flex items-center gap-4">
-          <li>
-            <button class="border border-gray-400 py-3 px-6 rounded-3xl font-semibold">Log in</button>
-          </li>
-          <li>
-            <button 
-              class="btn-primary"
-            >
-              Get Started
-            </button>
-          </li>
-          <li class="flex items-center">
-            <button>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
-              </svg>
-            </button>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="relative w-full flex justify-center items-center mt-16 flex-col text-center">
+  <header class="flex justify-between items-center py-4 px-28">
+    <a href="#" class="font-semibold text-2xl">Lyf_) <span class="text-lg font-medium ">/ isurance@tiropay.au</span></a>
+    <nav>
+      <ul class="flex items-center gap-4">
+        <li>
+          <button class="border border-gray-400 py-3 px-6 rounded-3xl font-semibold">Log in</button>
+        </li>
+        <li>
+          <button 
+            class="btn-primary"
+          >
+            Get Started
+          </button>
+        </li>
+        <li class="flex items-center">
+          <button title="Open menu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="relative w-full px-28 flex justify-center items-center mt-16 flex-col text-center">
+    <div>
+      <h1 class="font-bold text-7xl">
+        Life planing, Making <br>
+        Easy to Turn Dreams a Reality.
+      </h1>
+      <p class="text-2xl mt-10">Get Exclusive offers on purchase of any plans</p>
+    </div>
+    <div class="flex gap-4 mt-10 w-full m-auto justify-center items-center">
+      <div class="border border-gray-500 flex py-4 px-4 gap-4 w-[21%] rounded-full">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="transform -rotate-45 w-6 h-6">
+          <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
+        </svg>
+        <input type="mail" placeholder="Your Email" class="outline-none text-black placeholder:text-black">
+      </div>
       <div>
-        <h1 class="font-bold text-7xl">
-          Life planing, Making <br>
-          Easy to Turn Dreams a Reality.
-        </h1>
-        <p class="text-2xl mt-10">Get Exclusive offers on purchase of any plans</p>
+        <button class="btn-primary">Sign Up</button>
       </div>
-      <div class="flex gap-4 mt-10 w-full m-auto justify-center items-center">
-        <div class="border border-gray-500 flex py-4 px-4 gap-4 w-[21%] rounded-full">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="transform -rotate-45 w-6 h-6">
-            <path d="M3.478 2.404a.75.75 0 0 0-.926.941l2.432 7.905H13.5a.75.75 0 0 1 0 1.5H4.984l-2.432 7.905a.75.75 0 0 0 .926.94 60.519 60.519 0 0 0 18.445-8.986.75.75 0 0 0 0-1.218A60.517 60.517 0 0 0 3.478 2.404Z" />
-          </svg>
-          <input type="mail" placeholder="Your Email" class="outline-none text-black placeholder:text-black">
-        </div>
-        <div>
-          <button class="btn-primary">Sign Up</button>
-        </div>
-      </div>
-    </main>
+    </div>
     <div class="mt-6 border-b border-gray-500 pb-6">
       <div class="flex justify-between">
         <h2 class="font-bold text-3xl">Featured Plans</h2>
         <button class="font-semibold">Explore All</button>
       </div>
-      <div class="grid grid-cols-4 gap-6 mt-5">
-        <div class="bg-[#5fcda0] rounded-lg p-6">
+      <ul class="grid grid-cols-4 gap-6 mt-5">
+        <li class="bg-[#5fcda0] rounded-lg p-6">
           <h3 class="text-gray-500 uppercase text-xl">Strategy</h3>
           <h2 class="font-bold text-2xl my-2">Money Momentum</h2>
           <span class="text-lg">Tract Premium helps you start saver investments insights covering.</span>
@@ -70,8 +69,8 @@
               </svg>
             </button>
           </div>
-        </div>
-        <div class="bg-black rounded-lg p-6">
+        </li>
+        <li class="bg-black rounded-lg p-6">
           <h3 class="text-gray-500 uppercase text-xl">Strategy</h3>
           <h2 class="font-bold text-2xl my-2 text-white">Money Momentum</h2>
           <span class="text-lg text-gray-300">Tract Premium helps you start saver investments insights covering.</span>
@@ -84,8 +83,8 @@
               </svg>
             </button>
           </div>
-        </div>
-        <div class="bg-[#cd9bfe] rounded-lg p-6">
+        </li>
+        <li class="bg-[#cd9bfe] rounded-lg p-6">
           <h3 class="text-gray-500 uppercase text-xl">Strategy</h3>
           <h2 class="font-bold text-2xl my-2">Money Momentum</h2>
           <span class="text-lg">Tract Premium helps you start saver investments insights covering.</span>
@@ -98,8 +97,8 @@
               </svg>
             </button>
           </div>
-        </div>
-        <div class="bg-[#ecec88] rounded-lg p-6">
+        </li>
+        <li class="bg-[#ecec88] rounded-lg p-6">
           <h3 class="text-gray-500 uppercase text-xl">Strategy</h3>
           <h2 class="font-bold text-2xl my-2">Money Momentum</h2>
           <span class="text-lg">Tract Premium helps you start saver investments insights covering.</span>
@@ -112,26 +111,28 @@
               </svg>
             </button>
           </div>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
-    <footer class="flex justify-between items-center mt-6">
-      <div class="flex items-center gap-4 text-xl text-gray-600">
-        <h4>Terms Policy</h4>
+  </main>
+  <footer class="mt-5">
+    <ul class="flex px-28 justify-between items-center">
+      <li class="flex items-center gap-4 text-xl text-gray-600">
+        <a href="#">Terms Policy</a>
         <span class="w-2 h-2 rounded-full bg-gray-600"></span>
-        <h4>Custom Story</h4>
-      </div>
-      <div>
-        <span class="flex items-center gap-4 text-xl text-gray-600">Coded by Elvin</span>
-      </div>
-      <div>
-        <button class="border border-gray-600 py-2 px-4 rounded-3xl">
+        <a href="#">Custom Story</a>
+      </li>
+      <li>
+        <a href="#" class="flex items-center gap-4 text-xl text-gray-600">Coded by Elvin</a>
+      </li>
+      <li>
+        <a href="#" class="">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
             <path fill-rule="evenodd" d="M12.97 3.97a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 0 1 0 1.06l-7.5 7.5a.75.75 0 1 1-1.06-1.06l6.22-6.22H3a.75.75 0 0 1 0-1.5h16.19l-6.22-6.22a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
           </svg>
-        </button>
-      </div>
-    </footer>
-  </main>
+        </a>
+      </li>
+    </ul>
+  </footer>
 </body>
 </html>

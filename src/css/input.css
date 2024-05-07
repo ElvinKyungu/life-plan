@@ -8,4 +8,7 @@
   .btn-primary {
     @apply border border-black py-3 px-6 rounded-3xl bg-black text-white font-semibold;
   }
+  body {
+    @apply font-roboto
+  }
 }
